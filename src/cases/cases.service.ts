@@ -9,7 +9,6 @@ import * as fs from 'fs';
 import { Prisma } from '@prisma/client';
 import { MailerService } from '@nestjs-modules/mailer/dist/mailer.service';
 import Handlebars from 'handlebars';
-import * as excelJs from 'exceljs' 
 @Injectable()
 export class CasesService {
   constructor(
