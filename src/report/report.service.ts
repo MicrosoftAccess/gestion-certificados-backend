@@ -2,10 +2,7 @@ import { Prisma } from '@prisma/client';
 import { BadRequestException, Injectable, NotFoundException } from '@nestjs/common';
 import { CreateReportDto } from './dto/create-report.dto';
 import { UpdateReportDto } from './dto/update-report.dto';
-import * as excelJs from 'excelJs'
-import * as fs from 'fs'
 import * as xlsx from 'xlsx'
-import * as tmp from 'tmp'
 import { PrismaService } from 'src/prisma/prisma.service';
 import { querys } from 'src/utils/querys';
 
